@@ -67,12 +67,37 @@
                 border: 2px solid rgb(3, 45, 138);
                 z-index: 1;
             }
+            .menu {
+                height: 15px;
+                width: 100px;
+                overflow: hidden;
+                transition: 1s;
+                border: 2px solid #d8d3cd;
+                cursor: pointer;
+            }
+            .menu:hover {
+                height: 70px;
+                overflow: hidden;
+                width: 100px;
+                transition: 1s;
+                border: 2px solid #d8d3cd;
+            }
+            .f:hover {
+                background-color: aliceblue;
+            }
         </style>
     <body>
         <div class="header">
             Брюзгин Виктор
         </div>
-
+        <div style="height: 80px;">
+            <div class="menu">
+                <div class="f">Каталог</div>
+                <div class="f">Товары</div>
+                <div class="f">Картинки</div>
+                <div class="f">Новости</div>
+            </div>
+        </div>
         <div class="content">
             <h1>Inline</h1>
             <div class="a" style="display: inline">block 1</div>

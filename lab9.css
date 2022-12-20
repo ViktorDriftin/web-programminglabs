@@ -39,3 +39,11 @@ body {
     left: 30px;
     text-align: center;
 }
+
+#coords {
+    color: rgb(230, 238, 230);
+    background: rgb(4, 10, 121);
+    height: 80px;
+    line-height: 80px; 
+    text-align: center;
+}

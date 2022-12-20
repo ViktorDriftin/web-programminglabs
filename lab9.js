@@ -10,3 +10,12 @@ function clickMe2(button) {
     else
         button.innerHTML = 'Виктор';
 }
+function clickMe3(button)
+{ 
+    if(button.innerHTML == 'Нажми меня') 
+        button.innerHTML = 'Ещё раз нажми';
+    else if (button.innerHTML == 'Ещё раз нажми')
+        button.innerHTML = 'Ещё';
+    else
+        button.innerHTML = 'Нажми меня';
+}
